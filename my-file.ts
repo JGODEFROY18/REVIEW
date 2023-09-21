@@ -16,3 +16,4 @@ test('lien pour commencer', async ({ page }) => {
   // S'attend à ce que la page contienne un titre avec le nom Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
