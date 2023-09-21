@@ -1,4 +1,4 @@
-import {chromium, Browser, Page, test} from 'playwright/test';
+import {chromium, Browser, test} from 'playwright/test';
 
 test('has title', async ({page}) => {
     // Ouvrir un navigateur Chromium avec Playwright
