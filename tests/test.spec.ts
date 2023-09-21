@@ -1,11 +1,11 @@
-import {chromium, Browser, test} from 'playwright/test';
+import {chromium, Browser, test} from '@playwright/test';
 
 test('has title', async ({page}) => {
     // Ouvrir un navigateur Chromium avec Playwright
     const browser: Browser = await chromium.launch();
 
     // Accéder à l'URL de votre formulaire HTML
-    await page.goto('http://localhost:63343');
+    await page.goto('http://localhost:5500');
 
     // Remplir le champ "Nom"
     await page.fill('#nom', 'John Doe');
