@@ -9,7 +9,7 @@ test('a un titre', async ({ page }) => {
 
 test('lien pour commencer', async ({ page }) => {
   await page.goto('http://localhost:5500');
-
+//
   // Clique sur le lien pour commencer.
   await page.getByRole('button').click();
 
